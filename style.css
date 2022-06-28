@@ -1,79 +1,87 @@
-body{
+body {
     background-color: #EEE;
-    padding:0px;
-    margin:0px;
+    padding: 0px;
+    margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     width: 340px;
-    
+
 }
-.header{
+
+.header {
     height: 50px;
     width: 100%;
     background-color: #4157AF;
-    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
     line-height: 50px;
     box-sizing: border-box;
     padding-left: 50px;
     text-align: left;
     font-size: 19px;
     font-weight: normal;
-    color:#FFF;
+    color: #FFF;
 }
-.header img{
+
+.header img {
     position: absolute;
-    top:10px;
-    left:10px;
+    top: 10px;
+    left: 10px;
     height: 30px;
 }
-.block{
-    padding:5px;
+
+.block {
+    padding: 5px;
 }
-.card{
-       
+
+.card {
+
     width: 100%;
     background-color: #FFF;
-    box-shadow: 0px 0px 10px rgba(0,0,0,.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .1);
     line-height: 50px;
     box-sizing: border-box;
-    
+
     text-align: left;
     font-size: 19px;
     font-weight: normal;
-    color:rgba(0,0,0,.5);
+    color: rgba(0, 0, 0, .5);
     border-radius: 2px;
     position: relative;
-    
-    padding:15px;
+
+    padding: 15px;
 }
-.card h2{
+
+.card h2 {
     font-size: 35px;
-    padding:0px;
-    margin:0px;
-    color:#4157AF;
+    padding: 0px;
+    margin: 0px;
+    color: #4157AF;
     padding-top: 20px;
-    
+
     padding-bottom: 10px;
 }
-.card p{
+
+.card p {
     font-size: 14px;
     line-height: 20px;
-    color:rgba(0,0,0,.8);
+    color: rgba(0, 0, 0, .8);
 }
-.card h1{
-    padding:0px;
-    margin:0px;
+
+.card h1 {
+    padding: 0px;
+    margin: 0px;
     font-size: 16px;
     line-height: 20px;
     padding-bottom: 10px;
     padding-top: 10px;
     display: block;
-    color:#000;
+    color: #000;
     border-bottom: 2px solid #4157AF;
-    
+
 }
-.card a{
+
+.card a {
     text-decoration: none;
-    color:#4157AF;
+    color: #4157AF;
     display: block;
     text-align: center;
     line-height: 16px;
@@ -82,56 +90,68 @@ body{
     outline: 0;
     font-size: 14px;
 }
-.card a.footer{
+
+.card a.footer {
     font-size: 12px;
-    color:rgba(0,0,0,.2);
+    color: rgba(0, 0, 0, .2);
     margin-top: 10px;
     margin-top: 25px;
 }
-.card a.btn{
+
+.card a.btn {
     background-color: #4157AF;
-    color:#FFF;
+    color: #FFF;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 2px;
-    box-shadow: 2px 2px 10px rgba(0,0,0,.2);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .2);
     text-transform: uppercase;
     margin-top: 10px;
     margin-bottom: 0px;
 }
-.card a.btn:hover{
+
+.card a.btn:hover {
     box-shadow: none;
 }
-.card a.btn:active{
+
+.card a.btn:active {
     background-color: #000;
 }
-.card i{
+
+.card i {
     line-height: 16px;
     font-size: 12px;
     display: block;
-    
+
 }
-.card i::first-letter{
+
+.card i::first-letter {
     text-transform: uppercase;
 }
-#loader{
+
+#loader {
     position: absolute;
-    top:50px;
+    top: 50px;
     left: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(255, 255, 255, 1);
 }
-.card .chart{
+
+.card .chart {
     width: 100%;
     height: 150px;
 }
-#loader.hide{
+
+#loader.hide {
     display: none;
 }
+
 .loader {
-    border: 8px solid #f3f3f3; /* Light grey */
-    border-top: 8px solid #4157AF; /* Blue */
+    border: 8px solid #f3f3f3;
+    /* Light grey */
+    border-top: 8px solid #4157AF;
+    /* Blue */
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -142,30 +162,44 @@ body{
     top: 50%;
     margin-left: -30px;
     margin-top: -70px;
-    
+
 }
-.variation{
+
+.variation {
     display: block;
     font-size: 10px;
     margin-top: 20px;
     margin-right: 20px;
     position: absolute;
-    right:10px;
+    right: 10px;
     margin-top: 20px;
     height: 14px;
     line-height: 14px;
     padding-left: 7px;
     padding-right: 7px;
-    color:#FFF;
+    color: #FFF;
     border-radius: 1px;
 }
-.variation.green{
-    background-color:#4CAF50;
+
+.variation.green {
+    background-color: #4CAF50;
 }
-.variation.red{
-    background-color:#f44336;
+
+.variation.red {
+    background-color: #f44336;
 }
+
 @keyframes spin {
-    0% { transform: rotate(0deg);}
-    100% { transform: rotate(360deg);}
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#extraMSG {
+    font-size: 12px;
+    line-height: 15px;
 }

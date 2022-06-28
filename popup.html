@@ -1,35 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Dolar Colombia</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="chart.js"></script>
     <script src="app.js" async></script>
-</head>
-<body>
+  </head>
+  <body>
     <div class="header">
-            <img src="icon.png">
-            Dólar en Colombia
+      <img src="icon.png" />
+      Dólar en Colombia
     </div>
     <div class="block">
-        <div class="card">
-            <h1>Precio del Dólar en Colombia 🇨🇴</h1>
-            <span class="variation"></span>
-            <h2 id="today-value"></h2>
-            
-            <i id="today-value-text"></i>
-            <p>El precio del dólar para el día <strong id="today-date"></strong> es de <strong id="today-value2"></strong> Pesos Colombianos</p>
-            <div id="chart_div" class="chart"></div>
-            <a class="btn" target="_blank" href="https://www.dolarcolombia.co?utm_source=chrome&utm_medium=plugin">Más Información</a>
-            <!--<a class="footer" target="_blank" href="https://www.dolarcolombia.co?utm_source=chrome&utm_medium=plugin">Fuente: dolarcolombia.co</a>-->
-        </div>
+      <div class="card">
+        <h1>Precio del Dólar en Colombia 🇨🇴</h1>
+        <span class="variation"></span>
+        <h2 id="today-value"></h2>
+
+        <i id="today-value-text"></i>
+        <p>
+          El precio del dólar para el día <strong id="today-date"></strong> es
+          de <strong id="today-value2"></strong> Pesos Colombianos
+        </p>
+        <div id="chart_div" class="chart"></div>
+
+        <div id="extraMSG"></div>
+
+        <a
+          class="btn"
+          target="_blank"
+          href="https://www.dolarcolombia.co?utm_source=chrome&utm_medium=plugin"
+          >Más Información</a
+        >
+        <!--<a class="footer" target="_blank" href="https://www.dolarcolombia.co?utm_source=chrome&utm_medium=plugin">Fuente: dolarcolombia.co</a>-->
+      </div>
     </div>
     <div id="loader">
-        <div class="loader"></div>
+      <div class="loader"></div>
     </div>
-
-</body>
+  </body>
 </html>

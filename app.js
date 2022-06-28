@@ -73,6 +73,8 @@ app.render = function (response) {
       "$" + parseFloat(response.today.trm).toLocaleString("us-EN");
     document.querySelector("#today-value-text").innerHTML = response.today.text;
     document.querySelector("#today-date").innerHTML = response.today.dateText;
+    if (response.today.extraMSG)
+      document.querySelector("#extraMSG").innerHTML = response.today.extraMSG;
     if (parseFloat(response.today.trm) > parseFloat(response.yesterday.trm)) {
       document.querySelector(".variation").innerHTML = "Subió";
       app.addClass(".variation", "green");
